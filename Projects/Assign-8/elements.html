@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Elements Showcase</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    nav a { margin-right: 15px; text-decoration: none; color: #0077cc; }
+    section { margin-top: 40px; }
+    table, th, td { border: 1px solid #333; border-collapse: collapse; padding: 8px; }
+    caption { font-weight: bold; margin-bottom: 8px; }
+    .back-top { margin-top: 40px; display: block; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#block-elements">Block Elements</a>
+    <a href="#inline-elements">Inline Elements</a>
+    <a href="#comparison">Comparison</a>
+  </nav>
+
+  <!-- Main Heading -->
+  <h1>HTML Elements Showcase - Inline vs Block</h1>
+  <p>HTML elements are divided into block-level and inline-level based on how they behave in the document flow. Block elements take up the full width available and start on a new line, while inline elements flow within the content and do not break the line.</p>
+
+  <!-- Section 1: Block Elements -->
+  <section id="block-elements">
+    <h2>Block Elements</h2>
+
+    <div>This is a &lt;div&gt; element.</div>
+    <p>Used as a container for other elements or content.</p>
+
+    <p>This is a &lt;p&gt; paragraph element.</p>
+    <p>Displays text as a separate block with spacing.</p>
+
+    <h1>Heading Level 1</h1>
+    <p>Used for main titles.</p>
+
+    <h2>Heading Level 2</h2>
+    <p>Used for subheadings.</p>
+
+    <h3>Heading Level 3</h3>
+    <p>Used for smaller subheadings.</p>
+
+    <h4>Heading Level 4</h4>
+    <p>Used for minor headings.</p>
+
+    <h5>Heading Level 5</h5>
+    <p>Used for less prominent headings.</p>
+
+    <h6>Heading Level 6</h6>
+    <p>Used for the least prominent headings.</p>
+
+    <ul>
+      <li>Unordered list item 1</li>
+      <li>Unordered list item 2</li>
+    </ul>
+    <p>&lt;ul&gt; creates a bullet-point list.</p>
+
+    <ol>
+      <li>Ordered list item 1</li>
+      <li>Ordered list item 2</li>
+    </ol>
+    <p>&lt;ol&gt; creates a numbered list.</p>
+
+    <blockquote>
+      "This is a blockquote element used for quoting text."
+    </blockquote>
+    <p>Displays quoted text with indentation.</p>
+
+    <hr>
+    <p>&lt;hr&gt; creates a horizontal line to separate content.</p>
+
+    <table>
+      <caption>Simple 2*2 Table</caption>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+      </tr>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+      </tr>
+    </table>
+    <p>&lt;table&gt; displays tabular data.</p>
+  </section>
+
+  <!-- Section 2: Inline Elements -->
+  <section id="inline-elements">
+    <h2>Inline Elements</h2>
+
+    <p>This is a <span>span element</span> inside a sentence.</p>
+    <p>&lt;span&gt; is used to style or group inline text.</p>
+
+    <p>Visit <a href="https://example.com">this link</a> for more info.</p>
+    <p>&lt;a&gt; creates hyperlinks.</p>
+
+    <p>This text is <b>bold</b> using &lt;b&gt;.</p>
+    <p>&lt;b&gt; makes text bold without semantic emphasis.</p>
+
+    <p>This text is <i>italic</i> using &lt;i&gt;.</p>
+    <p>&lt;i&gt; makes text italic without semantic emphasis.</p>
+
+    <p>This text is <u>underlined</u> using &lt;u&gt;.</p>
+    <p>&lt;u&gt; underlines text.</p>
+
+    <p>This is <strong>strongly emphasized</strong> text.</p>
+    <p>&lt;strong&gt; indicates important content.</p>
+
+    <p>This is <em>emphasized</em> text.</p>
+    <p>&lt;em&gt; adds semantic emphasis.</p>
+
+    <p>Water is H<sub>2</sub>O and E = mc<sup>2</sup>.</p>
+    <p>&lt;sub&gt; and &lt;sup&gt; position text below or above the line.</p>
+
+    <p>This is <mark>highlighted</mark> text.</p>
+    <p>&lt;mark&gt; highlights text.</p>
+
+    <p>The abbreviation <abbr title="HyperText Markup Language">HTML</abbr> is widely used.</p>
+    <p>&lt;abbr&gt; shows full form on hover.</p>
+
+    <p>Use <code>console.log()</code> to print in JavaScript.</p>
+    <p>&lt;code&gt; displays inline code snippets.</p>
+  </section>
+
+  <!-- Section 3: Comparison Table -->
+  <section id="comparison">
+    <h2>Inline vs Block Comparison</h2>
+    <table>
+      <caption>Differences Between Inline and Block Elements</caption>
+      <tr>
+        <th>Inline Elements</th>
+        <th>Block Elements</th>
+      </tr>
+      <tr>
+        <td>&lt;span&gt;</td>
+        <td>&lt;div&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>&lt;p&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;b&gt;</td>
+        <td>&lt;h1&gt;-&lt;h6&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;i&gt;</td>
+        <td>&lt;ul&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;u&gt;</td>
+        <td>&lt;ol&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;strong&gt;</td>
+        <td>&lt;blockquote&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;</td>
+        <td>&lt;hr&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;code&gt;</td>
+        <td>&lt;table&gt;</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Back to Top -->
+  <a href="#top" class="back-top">Back to Top</a>
+
+</body>
+</html>
