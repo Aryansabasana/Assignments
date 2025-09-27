@@ -1,13 +1,3 @@
-// 34. Left-Aligned Triangle (Stars)
-// Input: n = 5
-
-// *
-//  **
-//   ***
-//    ****
-//     *****
-// Description: Similar to right-aligned but “flipped” — stars lean left. Hint: Print spaces before stars, but decreasing differently than right alignment. Difficulty: Easy → Medium
-
 #include <stdio.h>
 
 int main()
